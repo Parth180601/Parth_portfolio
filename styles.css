@@ -6,12 +6,12 @@
 }
 
 :root {
-    --primary-color: #858585;
+    --primary-color:#3b82f6;
     --secondary-color: #3b82f6;
     --accent-color: #3b82f6;
     --text-color: #578cff;
     --light-text: #406ba8;
-    --background: #858585;
+    --background: #406ba8;
     --section-bg: #858585;
     --card-bg: #ffffff;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
