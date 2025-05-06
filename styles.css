@@ -415,7 +415,7 @@ section {
     padding: 0.4rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: 500;
 }
 
@@ -544,9 +544,9 @@ section {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
-    background: var(--card-bg);
+    background: white;
     border-radius: 20px;
-    box-shadow: var(--card-shadow);
+    box-shadow: gray;
 }
 
 .contact-form {
