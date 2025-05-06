@@ -118,4 +118,39 @@ document.querySelector('.resume').addEventListener('click', (e) => {
     if (e.target.classList.contains('resume')) {
         closeResume();
     }
+});
+
+// Mobile Navigation
+const closeBtn = document.querySelector('.close-btn');
+const mobileNav = document.querySelector('.mobile-nav');
+const mobileNavLinks = document.querySelectorAll('.mobile-nav a');
+
+// Toggle mobile menu
+menuBtn.addEventListener('click', () => {
+    mobileNav.classList.add('active');
+    document.body.style.overflow = 'hidden'; // Prevent scrolling when menu is open
+});
+
+// Close mobile menu
+closeBtn.addEventListener('click', () => {
+    mobileNav.classList.remove('active');
+    document.body.style.overflow = ''; // Restore scrolling
+});
+
+// Close mobile menu when clicking on a link
+mobileNavLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        mobileNav.classList.remove('active');
+        document.body.style.overflow = '';
+    });
+});
+
+// Close mobile menu when clicking outside
+document.addEventListener('click', (e) => {
+    if (mobileNav.classList.contains('active') && 
+        !mobileNav.contains(e.target) && 
+        !menuBtn.contains(e.target)) {
+        mobileNav.classList.remove('active');
+        document.body.style.overflow = '';
+    }
 }); 
