@@ -514,7 +514,7 @@ section {
 }
 
 .experience-info p {
-    color: var(--light-text);
+    color: gray;
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 1.5rem;
@@ -546,7 +546,7 @@ section {
     padding: 2rem;
     background: gray;
     border-radius: 20px;
-    box-shadow: gray;
+    box-shadow: white;
 }
 
 .contact-form {
