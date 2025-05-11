@@ -402,7 +402,10 @@ section {
     margin-bottom: 1rem;
     color: var(--secondary-text);
 }
-
+.project-info p{
+    color: var(--secondary-text);
+    
+}
 .project-tech {
     display: flex;
     flex-wrap: wrap;
@@ -415,7 +418,7 @@ section {
     padding: 0.4rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
-    color: var(--secondary-color);
+    color: light blue;
     font-weight: 500;
 }
 
