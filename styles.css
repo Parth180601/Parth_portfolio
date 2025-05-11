@@ -402,9 +402,11 @@ section {
     margin-bottom: 1rem;
     color: var(--secondary-text);
 }
-.project-info p{
-    color: var(--secondary-text);
-    
+.project-info p {
+    color: var(--light-text);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
 }
 .project-tech {
     display: flex;
@@ -414,11 +416,11 @@ section {
 }
 
 .project-tech span {
-    background: var(--section-bg);
+    background: light blue;
     padding: 0.4rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
-    color: light blue;
+    text-color: white;
     font-weight: 500;
 }
 
@@ -547,7 +549,7 @@ section {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
-    background: gray;
+    background: white;
     border-radius: 20px;
     box-shadow: white;
 }
